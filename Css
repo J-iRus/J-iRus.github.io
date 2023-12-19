@@ -1,0 +1,126 @@
+html {
+  background-color: #ffcf66ff;
+  font-family: 'Fredoka', sans-serf;
+}
+
+.hero {
+  font-family: 'Fredoka', sans-serif;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background: linear-gradient(45deg, #ffd79e, #ff7b00);
+}
+
+.hero-content {
+  text-align: center;
+  color: #ff7b00;
+}
+
+.hero h1 {
+  text-transform: capitalize;
+  font-size: 5.99999vmin;
+  margin-bottom: 1rem;
+}
+
+
+.btn {
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff7b00;
+}
+
+.ingredient-box {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(255, 255, 255, 0.5);
+  padding: 35px;
+  max-width: 300px;
+  text-align: center;
+  margin: 20px auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.ingredient-box h1 {
+  font-size: 4vmin;
+}
+
+.ingredient-box li {
+  font-size: 3vmin;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.direction-box {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(255, 255, 255, 0.5);
+  padding: 35px;
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+  margin-bottom: 50px;
+}
+
+.direction-box h2 {
+  font-size: 4vmin;
+}
+
+.direction-box h4, p {
+  font-size: 3vmin;
+}
+
+.topping-box {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(255, 255, 255, 0.5);
+  padding: 25px;
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+  margin-bottom: 50px;
+}
+
+.topping-box h2{
+  font-size: 4vmin;
+}
+
+.topping-box li {
+  font-size: 3vmin;
+}
+
+.info {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(255, 255, 255, 0.5);
+  padding: 35px;
+  padding-bottom: 15px;
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+  margin-bottom: 50px;
+  font-size: 3vmin;
+}
+
+.info h2 {
+  font-size: 4vmin;
+  text-transform: capitalize;
+}
